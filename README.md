@@ -1,5 +1,5 @@
 #Today activities
-##Class discusion
+###Class discusion
 
 -git init
 -git status

@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0,0,20,0.1);
+    background: url(.)
+}
+
+#ad {
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 10px 10px 50px 40px;
+}
+
+#ad:hover{
+    background-color: rgba(250, 54, 20, 0.452);
+}
+
+#pd {
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    margin: 10px 10px 50px 40px;
+    text-align: center;
+    width: 500px;
+    float: left;
+
+}
+
+
+#pd:hover{
+    background-color: #fa681473;
+}
+
+#pa {
+    float: left;
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 10px 10px 50px 40px;
+}
+
+
+#pa:hover{
+    background-color: rgba(215, 250, 20, 0.452);
+}
+
+#rs {
+    float: left;
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 10px 10px 50px 40px;
+}
+
+
+#rs:hover{
+    background-color: rgba(20, 177, 250, 0.452);
+}
+
+#ks {
+    float:left;
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 10px 10px 50px 40px;
+}
+
+
+#ks:hover{
+    background-color: rgba(250, 20, 212, 0.452);
+}
+#ph{
+    float: right;
+    background-color: rgba(127, 255, 212,0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 10px 10px 50px 40px;
+}
+
+
+#ph:hover{
+    background-color: rgba(250, 20, 58, 0.3);
+}
+
+#home{
+    float: left;
+    background-color: rgba(255, 127, 165, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    width: 120px;
+    margin: 10px 10px 50px 40px;
+}
+
+
+#home:hover{
+    background-color: rgba(250, 20, 97, 0.452);
+}

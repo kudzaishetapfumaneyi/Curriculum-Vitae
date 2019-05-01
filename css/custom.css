@@ -1,7 +1,4 @@
-/*
- *  Draco HTML Template by @flamekaizar
- *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
- */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
@@ -26,11 +23,13 @@ a:hover {
   max-width: 662px;
   padding: 0 20px; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 20px) {
   .intro img {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+
+     margin-right: auto;  
+  } 
 
   footer {
     text-align: center; } }
@@ -63,7 +62,8 @@ a:hover {
   50% {
     opacity: 0; }
   100% {
-    opacity: 1; } }
+    opacity: 1; }
+   }
 @-o-keyframes blink {
   0% {
     opacity: 1; }

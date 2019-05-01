@@ -3,14 +3,53 @@
 <head>
     <title>CV on the web</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/results.css">
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
+
+    	<div class="main-nav">
+                <div class="container">
+                    <header class="group top-nav">
+                        <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+                            <span class="logo">Kudzaishe Tapfumaneyi</span>
+                        </div>
+                        <nav id="navbar-1" class="navbar item-nav">
+                            <ul>
+                                <!-- <li class="active"><a href="#ad">About</a></li>
+                                <li><a href="#pd">Personal details</a></li>
+                                <li><a href="#pa">Personal Attributes</a></li>
+                                <li><a href="#ph">Personal Interests and hobbies</a></li>
+                                <li><a href="#ks">Key skills</a></li>
+                                <li><a href="#rs">Academic achievements</a></li>
+                                <li><a href="#ph">Skills</a></li> -->
+
+                                <ul>
+                                        <li><a href="#pd">Personal details</a></li>
+                                        <li><a href="#pa">Personal Attributes</a></li>
+                                        <li><a href="#ph">Personal Interests and hobbies</a></li>
+                                        <li><a href="#ks">Key skills</a></li>
+                                </ul>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+
+            <h2><br><span id="typed"></span></h2>
+
+        <a href="main.html">BACK HOME</a>
     <header align='center'>CIRRICULUM VITAE FOR KUDZAISHE TAPFUMANEYI</header>
-    <fieldset>
-        <img src="kt.jpg" alt="Stickman" width= "100" height="100">
+    <fieldset id="ad">
+        <h3>Address</h3>
+        <!-- <img src="kt.jpg" alt="Stickman" width= "100" height="100"> -->
     <p>11202 Budiriro 1<br>
     Budiriro 1 <br>
     Harare <br>
@@ -18,7 +57,7 @@
 </fieldset>
 
     <fieldset id ="pd"><h3 align='center'>Personal details</h3>
-    <p id = >
+    <p class="ps" >
         Name                :    Kudzaishe Tapfumaney <br>
         D.O.B               :    02 June 1996  <br>
         Gender              :    Male <br>
@@ -28,8 +67,10 @@
         ID No               :    63-1555395E80 <br>
     </p>
 
+    <a href="#navbar-1">Go Top</a>
+
 </fieldset>
-    <fieldset>
+    <fieldset id="pa">
     <h3 align='center'>Personal attributes</h3>
     <p>1. Possess excellent verbal and writting communication skills <br>
         2. Possess excellent verbal and writting communication skills <br>
@@ -40,11 +81,14 @@
        
     </p>
 
+    <a href="#navbar-1">Go Top</a>
+
+
     </fieldset>
 
 
         
-    <fieldset>
+    <fieldset id="rs">
 
     <h3 align='center'>Academic achievements</h3>
     <p>
@@ -94,8 +138,11 @@ Data structures:         P <br>
 
 </p>
 
+<a href="#navbar-1">Go Top</a>
+
+
 </fieldset>
-<fieldset>
+<fieldset id ="ph">
 
     <h3 align='center'>Personal interests and hobbies</h3>
     <p>
@@ -106,9 +153,12 @@ Data structures:         P <br>
         5. reading tech blogs and documentaries <br>
     </p>
 
+    <a href="#navbar-1">Go Top</a>
+
+
 </fieldset>
 
-<fieldset>
+<fieldset id ="ks">
     <h3 align='center'>Key Skills</h3>
 
     <p>
@@ -135,6 +185,24 @@ Data structures:         P <br>
 
             </p>
     </p>
+
+    <a href="#navbar-1">Go Top</a>
+
 </fieldset>
+<a href="main.html" id = "home">BACK HOME</a>
+
 </body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/kube.min.js"></script>
+<script src="js/site.js"></script>
+
+<script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["CIRRICULUM VITAE FOR KUDZAISHE TAPFUMANEYI ", "", ""],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </html>

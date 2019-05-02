@@ -1,6 +1,7 @@
 body {
     background-color: rgba(0,0,20,0.1);
-    background: url(.)
+    background: url(keyboard.jpg);
+    background-size: cover;
 }
 
 #ad {
